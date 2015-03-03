@@ -29,7 +29,7 @@ email:
 root: /blog
 permalink: /posts/:year/:month/:day/:title/
 source: source
-destination: public/posts
+destination: public/blog
 plugins: plugins
 code_dir: downloads/code
 category_dir: posts/categories
