@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://struct.tv/blog
+title: Struct.tv 
+subtitle: An online community for developers on slack.
+author: Justin McNally
 simple_search: https://www.google.com/search
-description:
+description: 'An online community of freelancers, contractors, consultants and educators.'
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /blog/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,13 +26,13 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
-permalink: /blog/:year/:month/:day/:title/
+root: /blog
+permalink: /posts/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/posts
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: posts/categories
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -70,7 +70,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: structdottv
 twitter_tweet_button: true
 
 # Google +1
